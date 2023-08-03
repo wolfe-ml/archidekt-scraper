@@ -2,6 +2,8 @@
 
 This is a python app to scrape decks from Archidekt. Currently this reads through all the pages in `archidect.com/decks/{query}` until the amount of desired decks N is reached. The decks are parsed and saved to the directory in the input `dataset_name` parameter.
 
+**Support Archidekt**: https://www.patreon.com/archidekt
+
 ## Installation
 
 using pipenv:
@@ -22,4 +24,3 @@ using pipenv:
     -h, --help     show this help message and exit
     --query query  The search query to iterate through.
 
-Support Archidekt: https://www.patreon.com/archidekt
